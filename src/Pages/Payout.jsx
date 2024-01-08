@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../Components/Header";
-import { Box, Flex, Select, Text, Link } from "@chakra-ui/react";
+import { Box, Flex, Select, Text } from "@chakra-ui/react";
 import { TableShow } from "../Components/Table";
 
 

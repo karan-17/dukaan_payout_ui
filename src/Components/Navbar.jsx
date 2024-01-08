@@ -2,13 +2,6 @@ import { Flex, Box, Text } from '@chakra-ui/react'
 import React from 'react'
 import logo from '../logo/Image.png'
 
-function activeButton() {
-    let buttons = document.getElementsByClassName('navbar-button')
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].classList.remove('active')
-    }
-    this.classList.add('active')
-}
 
 const Navbar = () => {
     return (
